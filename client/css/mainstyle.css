@@ -1,0 +1,1281 @@
+/* GLOBAL SETTINGS START ###########################################################################*/
+.container-fluid {
+    /*padding-right: 0px;*/
+}
+
+h1, h2, h3, h4, h5, label {
+    /*font-family: Arial;*/
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+body {
+    margin-top: 10px;
+    background-color: #ECECEC;
+    min-width:414px; /* suppose you want minimun width of 1000px */
+    width: auto !important;  /* Firefox will set width as auto */
+    width:414px; 
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: none;
+    box-shadows: none;
+}
+
+.borderradius0 {
+    border-radius: 0px;
+}
+
+.dropdown-menu {
+    border-radius: 0px;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.caret {
+    float: right;
+    margin-top: 9px;
+    margin-bottom: 7px;
+    color: #73af54;
+}
+
+.btn-info,
+.btn-info:hover,
+.btn-info:active,
+.btn-info:visited,
+.btn-info:focus {
+     background-color: #6f7072 !important;
+     border-color: #707173 !important;
+}
+
+.navbar-btn {
+    margin-bottom: 0px;
+}
+
+.carousel-placeholder {
+    margin-bottom: 10px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    /*background-image: none;*/
+    background: none;
+    /*opacity: 0;*/
+    color: black;
+}
+
+.carousel-control.left {
+  margin-left: -55px;
+}
+.carousel-control.right {
+  margin-right: -55px;
+}
+
+.carousel-indicators li { visibility: hidden; }
+
+label {
+    color: #666666;
+}
+
+.glyphicon-chevron-left {
+    color: #4f4f4f;
+    font-size: 20px !important;
+ }
+ 
+ .glyphicon-chevron-right {
+    color: #4f4f4f;
+    font-size: 20px !important;
+ }
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.form-control {
+    border-radius: 0px;
+    min-width: 0;
+    display: inline;
+}
+
+.form-control:focus {
+    border: solid 1px #73af54;
+    box-shadow: none;
+}
+
+.form-group {
+     min-width: 0;
+     width: auto;
+}
+
+.showHand { cursor: pointer; }
+
+hr {
+    border-color: #D0D0D0;
+}
+
+.modal-content {
+    border-radius: 0px;
+    background-color: #ffffff;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input {
+  /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.s-alert-box {
+  /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.dropdown-image {
+  margin-left: 40px;
+}
+
+.popover {
+  border-radius: 0px;
+  max-width: 400%;
+}
+
+.popover-image {
+  margin-bottom: 15px;
+}
+/* GLOBAL SETTINGS END ###############################################################################*/   
+
+
+
+/* GLOBAL ADUSTMENTS START ###########################################################################*/
+@media(max-width:767px){
+    .gl767ml15, .gl767ml15:focus, .gl767ml15:active {
+        margin-left: 15px;
+    }
+}
+
+.glmr5 {
+    margin-right: 5px;
+}
+
+.middleInfo, .middleInfo:hover{/*Angaben in der navbar*/
+    color: #494949;
+    font-size: 16px;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.middleInfoTask, .middleInfoTask:hover{/*Angaben in der navbar*/
+    color: #494949;
+    font-size: 14px;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.navinfo {/*Angaben in der navbar*/
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.glflr {
+     float: right;
+}
+
+.glmg5 {
+    margin-left: 5px;
+}
+
+.glpd15 {
+    padding-top: 15px;
+}
+
+.glpd0 {
+  padding-left: 0px;
+}
+
+.gltacenter {
+    text-align: center;
+}
+
+.glbold {
+    font-weight: bold;
+}
+
+.setFont {
+  /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+/* GLOBAL ADUSTMENTS END   ###########################################################################*/
+
+
+
+/* BUTTON SETTINGS START #############################################################################*/
+.btn-square-green, .btn-square-green:focus, .btn-square-green:active {
+  text-align: center;
+  font-size: 12px;
+  border: solid 1px #73af54;
+  background-color: #73af54;
+  color: #ffffff;
+  /*font-family: Arial;*/
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.btn-square-green:hover {
+    border: solid 1px #73af54;
+    color: #73af54;
+    background-color: #ffffff;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    border: solid 1px #73af54;
+    color: #73af54;
+    background-color: #ffffff;
+}
+/*---------------------------------------------------------------------------------------*/
+.btn-square-grey, .btn-square-grey:focus, .btn-square-grey:active {
+  text-align: center;
+  font-size: 12px;
+  border: solid 1px #707173;
+  background-color: #707173;
+  color: #ffffff;
+  /*font-family: Arial;*/
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.btn-square-grey:hover {
+    border: solid 1px #707173;
+    color: #707173;
+    background-color: #ffffff;
+}
+/*---------------------------------------------------------------------------------------*/
+.btn-circle-grey, .btn-circle-grey:focus, .btn-circle-grey:active {
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 17px;
+  border: solid 1px #707173;
+  background-color: #707173;
+  color: #ffffff;
+  font-family: Arial;
+
+}
+
+.btn-circle-grey:hover {
+    border: solid 1px #707173;
+    color: #707173;
+    background-color: #ffffff;
+}
+/*---------------------------------------------------------------------------------------*/
+.btn-circle-green, .btn-circle-green:focus, .btn-circle-green:active {
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 17px;
+  border: solid 1px #73af54;
+  background-color: #73af54;
+  color: #ffffff;
+  font-family: Arial;
+}
+
+.btn-circle-green:hover {
+    border: solid 1px #73af54;
+    color: #73af54;
+    background-color: #ffffff;
+}
+/*---------------------------------------------------------------------------------------*/
+.btn-circle-hgrey, .btn-circle-hgrey:focus, .btn-circle-hgrey:active {
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 17px;
+  border: solid 1px #B1B3B4;
+  background-color: #B1B3B4;
+  color: #ffffff;
+  font-family: Arial;
+}
+
+.btn-circle-hgrey:hover {
+  border: solid 1px #B1B3B4;
+  color: #B1B3B4;
+  background-color: #ffffff;
+}
+/*---------------------------------------------------------------------------------------*/
+.btn-circle-red, .btn-circle-red:focus, .btn-circle-red:active {
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 1  4px;
+  line-height: 1.0;
+  font-weight: bolder;
+  border-radius: 17px;
+  border: solid 3px #D4D0D0;
+  background-color: #E36767;
+  color: #ffffff;
+  /*font-family: Arial;*/
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+
+}
+
+.btn-circle-red:hover {
+    border: solid 3px #BDBDBD;
+    color: #E36767;
+    background-color: #ffffff;
+}
+/*---------------------------------------------------------------------------------------*/
+.btn-circle-ured, .btn-circle-ured:focus, .btn-circle-ured:active {
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 17px;
+  border: solid 1px #E8534F;
+  background-color: #E8534F;
+  color: #ffffff;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+}
+
+.btn-circle-ured:hover {
+  border: solid 1px #E8534F;
+  color: #E8534F;
+  background-color: #ffffff;
+}
+/*---------------------------------------------------------------------------------------*/
+.startbuttoncontainer {
+    margin-bottom: 5px;
+}
+
+.btn-start, .btn-start:focus, .btn-start:active {
+    background-color: #73af54;
+    color: #FFFFFF;
+    border: solid 2px #73af54;
+    border-radius: 0px;
+}
+
+.btn-start:hover {
+    border: solid 2px #73af54;
+    background-color: #FFFFFF;
+    color: #73af54;
+}
+
+.startbuttontext {
+    letter-spacing: 4px;
+    font-size: 18px;
+    /*font-family: Arial;*/
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*---------------------------------------------------------------------------------------*/
+.btn-login:hover {
+    border: solid 1px #73af54;
+    color: #73af54;
+    background-color: #ffffff;
+    border-radius: 0px;
+}
+
+.btn-login, .btn-login:focus, .btn-login:active {
+    font-size: 14px;
+    margin-top: 15px;
+    background-color: #73af54;
+    color: #ffffff;
+    border: solid 1px #73af54;
+    font-family: Arial;
+    border-radius: 0px;
+}
+/*---------------------------------------------------------------------------------------*/
+.bendselected, .bendselected:focus, .bendselected:hover {
+    background-color: #73af54;
+    border-color: #ADADAD;
+    color: #FFFFFF;
+    border-radius: 0px;
+}
+
+.bendpreselected, .bendpreselected:focus, bendpreselected:hover {
+    background-color: #FFFFFF;
+    border-color: #CCCCCC;
+    color: #73af54;
+    border-radius: 0px;
+}
+
+.bendunselected:hover {
+    color: #73af54;
+    border-color: #ADADAD;
+    border-radius: 0px;
+}
+
+.bendunselected {
+    background-color: #FFFFFF;
+    color: #333333;
+    border-radius: 0px;
+}
+/*---------------------------------------------------------------------------------------*/
+.horselected, .horselected:focus, .horselected:hover {
+    background-color: #73af54;
+    border-color: #ADADAD;
+    color: #FFFFFF;
+}
+
+.horpreselected, .horpreselected:focus, .horpreselected:hover {
+    background-color: #FFFFFF;
+    border-color: #ADADAD;
+    color: #73af54;
+}
+
+.horunselected:hover {
+    color: #73af54;
+    border-color: #ADADAD;
+}
+
+.horunselected {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+
+.verselected, .verselected:focus, .verselected:hover {
+    background-color: #AA6339;
+    border-color: #ADADAD;
+    color: #FFFFFF;
+}
+
+.verpreselected, .verpreselected:focus, .verpreselected:hover {
+    background-color: #FFFFFF;
+    border-color: #ADADAD;
+    color: #AA6339;
+}
+
+.verunselected:hover {
+    color: #AA6339;
+    border-color: #ADADAD;
+}
+
+.verunselected {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+
+.rotselected, .rotselected:focus, .rotselected:hover {
+    background-color: #6c99b0;
+    border-color: #ADADAD;
+    color: #FFFFFF;
+}
+
+.rotpreselected, .rotpreselected:focus, .rotpreselected:hover {
+    background-color: #FFFFFF;
+    border-color: #ADADAD;
+    color: #6c99b0;
+}
+
+.rotunselected:hover {
+    color: #6c99b0;
+    border-color: #ADADAD;
+}
+
+.rotunselected {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+.btn-square-hor, .btn-square-hor:focus, .btn-square-hor:active {
+  text-align: center;
+  font-size: 13px;
+  border: solid 1px #73af54;
+  background-color: #73af54;
+  color: #ffffff;
+  /*font-family: Arial;*/
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.btn-square-hor:hover {
+    border: solid 1px #73af54;
+    color: #73af54;
+    background-color: #ffffff;
+}
+
+.btn-square-ver, .btn-square-ver:focus, .btn-square-ver:active {
+  text-align: center;
+  font-size: 13px;
+  border: solid 1px #AA6339;
+  background-color: #AA6339;
+  color: #ffffff;
+  /*font-family: Arial;*/
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.btn-square-ver:hover {
+    border: solid 1px #AA6339;
+    color: #AA6339;
+    background-color: #ffffff;
+}
+
+.btn-square-rot, .btn-square-rot:focus, .btn-square-rot:active {
+  text-align: center;
+  font-size: 13px;
+  border: solid 1px #6c99b0;
+  background-color: #6c99b0;
+  color: #ffffff;
+  /*font-family: Arial;*/
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.btn-square-rot:hover {
+    border: solid 1px #6c99b0;
+    color: #6c99b0;
+    background-color: #ffffff;
+}
+/*---------------------------------------------------------------------------------------*/
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+/*---------------------------------------------------------------------------------------*/
+.cutting-dropdown-menu {
+    width: 220px;
+    margin-left: 15px;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+/*---------------------------------------------------------------------------------------*/
+.btn-impressum, .btn-impressum:hover, .btn-impressum:active, .btn-impressum:focus {
+    font-size: 13px;
+    color: #73af54;
+    text-decoration: none;
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+}
+/*---------------------------------------------------------------------------------------*/
+.tutorial-menu {
+}
+/* BUTTON SETTINGS END ##############################################################################*/
+
+
+
+/* HEADER START #####################################################################################*/
+.dropdown-h5 {
+    margin-left: 5px;
+    color: #555555;
+    margin-bottom: 2px;
+    font-weight: bold;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.dropdown-h6 {
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #7a7c81;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.dropdown-hr {
+    margin: 4px;
+}
+
+.property-h {
+    color: #73af54;
+    font-weight: bold;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.subdiv-h {
+    /*font-family: Arial;*/
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+    color: #494949;
+    margin: 0px;
+    padding: 10px;
+    background-color: #d8d8d8;
+    border-top: solid 1px #B1B3B4;
+    border-left: solid 1px #B1B3B4;
+    border-right: solid 1px #B1B3B4;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.notaskfind-h1 {
+    margin-bottom: 283px;
+    color: #a6a8ae;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.login-h3 {
+    color: #73af54;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.main-header {
+    color: #73af54;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+    font-size: 50px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+@media(max-width:991px){
+    .main-header {
+        font-size: 30px;
+    }
+}
+
+.sub-header {
+    color: #636463;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+/* HEADER END   #####################################################################################*/
+
+
+/* MODIFY DIVS START ################################################################################*/
+.maindiv {
+    display: block;
+    background-color: #ffffff;
+    border: solid 1px #C5C5C5;
+}
+
+.navbar-mynavbar {
+    border-bottom: 1px solid #e7e7e7;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+}
+
+.navbar-right > li > a {
+    padding-bottom: 6px;
+}
+
+.icon-bar {
+   background-color:#539370 !important;
+}
+
+.subdiv {
+    margin-bottom: 15px;
+    height: 586px;
+}
+
+.scrollable {
+    overflow-y: scroll;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+}
+
+.svg-area {
+    height: 586px;
+    padding-top: 10px;
+}
+
+.positionlist {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px #d1d5d8;
+    height: 480px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.positionlist-wrapper {
+    border: solid 1px #B6B6B6;
+    height: 550px;
+}
+
+.property-wrapper {
+     height: 448px;
+}
+
+.pos {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 8px;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+#thickness-wrapper > .btn-group {
+    width: 100%;
+    text-align: left;
+    white-space: normal;
+}
+
+#thickness-wrapper > .btn-group > .dropdownmenu {
+    width: 100%;
+    text-align: left;
+    white-space: normal;
+}
+
+#coatingdirection-wrapper > .btn-group {
+    width: 100%;
+    text-align: left;
+    white-space: normal;
+}
+
+.loginmask {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #ffffff;
+    height: 375px;
+    position: relative;
+    text-align: center;
+    border: solid 1px #b6b6b6;
+}
+
+.loginpart {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateY(-100%);
+    transform: translate(-50%, -100%);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.addbutton-div {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+/* MODIFY DIVS END   ################################################################################*/
+
+
+/* ERRORS START #####################################################################################*/
+.form-controlError {
+    border-color: #e74c3c;
+    color: #EAA19A !important;
+}
+
+.form-controlError::-webkit-input-placeholder {
+    color: #EAA19A !important;
+}
+
+.form-controlError::-moz-placeholder { /* Firefox 18- */
+    color: #EAA19A !important;
+}
+
+.form-controlError::-moz-placeholder {  /* Firefox 19+ */
+    color: #EAA19A !important;
+}
+
+.form-controlError:-ms-input-placeholder {
+    color: #EAA19A !important;
+}
+/* ERRORS END   #####################################################################################*/
+
+
+/* TABLE CONF START #################################################################################*/
+.table-hov>tbody>tr:hover>td, .table-hov>tbody>tr:hover>th {
+  background-color: #EEEEEE;
+}
+
+.cuttingtable {
+    border-radius: 0px;
+    height: 359px;
+    margin-bottom: 0px;
+}
+
+.cuttingtable thead {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.cuttingtable tbody {
+  height: 320px;
+  overflow-y: scroll;
+  width: 100%;
+  padding: 5px;
+}
+
+.cuttingtable thead, .cuttingtable tbody, .cuttingtable tr, .cuttingtable td, .cuttingtable th {
+  display: block;
+}
+
+.cuttingtable thead {
+    border-bottom: 1px solid #DDD;
+}
+
+.cuttingtable tbody>tr>td, .cuttingtable thead > tr> th {
+  float: left;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.panel > .table:last-child > tbody:last-child > tr:last-child td:first-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child, .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child, .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child, .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
+    border-bottom-left-radius: 0px;
+}
+
+.panel > .table:last-child > tbody:last-child > tr:last-child td:last-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child, .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child, .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child, .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
+    border-bottom-right-radius: 0px;
+}
+
+.tablefont {
+    font-size: 13px;
+    /*Neuer Schrift*/
+   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; 
+    /*Neuer Schrift*/
+}
+
+.table tbody > tr.active > td {
+  background-color: #707173 !important;
+  color: #FFFFFF !important;
+}
+
+.table tbody > tr.danger > td {
+  background-color: #e74c3c !important;
+  color: #FFFFFF !important;
+}
+/* TABLE CONF END   #################################################################################*/
+
+
+/* HORIZONTAL MENU START ############################################################################*/
+.list-special .list-group-item:first-child {
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+
+}
+
+.list-special .list-group-item:last-child {
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+
+}
+
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+    background-color: #707173;
+    border-color: #707173;
+}
+
+.nav-tabs li a {
+    margin-right: 0;
+    border-left: solid 0px #ffffff;
+    border-top: solid 1px #ffffff;
+    border-right: solid 0px #ffffff;
+    border-bottom: solid 0px #cccccc;
+    border-radius: 0px;
+    background-color: #ffffff;
+}
+
+.nav-tabs li a:hover { color: #73af54; }
+
+.nav-tabs .icon { color: #494949; }
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border-left: solid 1px #cccccc;
+    border-top: solid 1px #cccccc;
+    border-right: solid 1px #cccccc;
+    border-bottom: solid 1px #ffffff;
+    background-color: #ffffff;
+}
+
+.nav-tabs > li.active > a > span,
+.nav-tabs > li.active > a > span:hover,
+.nav-tabs > li.active > a > span:focus {
+    border: 0;
+    color: #73af54;
+}
+
+.nav-tabs {
+    background-color: #ffffff;
+    border-bottom: solid 1px #cccccc;
+}
+
+.icon {
+    padding: 1px;
+    margin: 0px;
+}
+/* HORIZONTAL MENU END   ############################################################################*/
+
+
+
+/* TASK BLOCK START ##################################################################################*/
+.taskblock {
+    position: relative;
+    display: block;
+    border: solid 1px #B6B6B6;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.2s ease-in-out;
+}
+
+.taskcontainer {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.taskrow {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.heading-active {
+    display: block;
+    background-color: #494949;
+    height: 30px;
+}
+
+.heading-deactive {
+    display: block;
+    background-color: white;
+    height: 30px;
+}
+
+.font-active {
+}
+
+.font-deactive {
+    color: #D2D1D1;
+}
+
+.taskbarcontrol-active, .taskbarcontrol-active:hover, .taskbarcontrol-active:focus, .taskbarcontrol-active:active {
+    font-size: 15px;
+    font-weight: lighter;
+    color: #B6B6B6;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+}
+
+.taskbarcontrol-deactive, .taskbarcontrol-deactive:hover, .taskbarcontrol-deactive:focus, .taskbarcontrol-deactive:active {
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+}
+
+.tasklabel {
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.taskbar {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.taskno {
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #B6B6B6;
+}
+
+.middlediv, .lastdiv {
+    background-color: white;
+}
+
+.lastdiv {
+    padding-bottom: 15px;
+}
+
+.area {
+    margin-bottom: 5px;
+}
+
+.horizontalline {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.offer {
+    color: #337ab7;
+    font-weight: bold;
+}
+
+.blockquote-offer {
+    border-color: #337ab7;
+}
+
+.order {
+    color: green;
+    font-weight: bold;
+}
+
+.blockquote-order {
+    border-color: green;
+}
+/* TASK BLOCK END   ##################################################################################*/
+
+
+
+/* NEW TASK BLOCK START ##################################################################################*/
+.my-task-block-empty {
+  height: 200px;
+}
+
+.my-task-block {
+  margin-bottom: 30px;
+}
+
+.all-task-block {
+  /*height: 200px;*/
+}
+
+.mytask-block-header {
+  color: #7c7d83;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+.alltask-block-header {
+  color: #73af54;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+.mytask-block-hr {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-color: #7c7d83;
+  border-style: dashed;
+}
+
+.alltask-block-hr {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-color: #73af54;
+  border-style: dashed;
+}
+
+.my-task-block > table > .tablehead > tr > th {
+  font-size: 13px;
+  font-weight: normal;
+  /*font-family: "Arial", Helvetica, sans-serif;*/
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  background-color: #7c7d83;
+  color: white;
+  border-bottom: none;
+  line-height: 1.5;
+}
+
+.my-task-block > table > .tablebody > tr > td {
+  font-size: 13px;
+  /*font-family: "Arial", Helvetica, sans-serif;*/
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  height: 20px;
+  line-height: 2;
+}
+
+.all-task-block > table > .tablehead > tr > th {
+  font-weight: normal;
+  font-size: 13px;
+  /*font-family: "Arial", Helvetica, sans-serif;*/
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  background-color: #73af54;
+  color: white;
+  line-height: 1.5;
+  border-bottom: none;
+}
+
+.all-task-block > table > .tablebody > tr > td {
+  font-size: 13px;
+  /*font-family: "Arial", Helvetica, sans-serif;*/
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  height: 20px;
+  line-height: 2;
+}
+
+.empty {
+  height: 97px;
+}
+
+.order-back {
+  /*color: #008542;*/
+ color: #242424; 
+ font-weight: bolder;
+
+}
+
+.offer-back {
+  /*color: #036eb6;*/
+ color: #4b4b4b; 
+}
+
+.person {
+  color: #8f9095;
+}
+
+.p_lus {
+  color: #8f9095;
+}
+.p_lus:hover {
+  color: #38393b;
+}
+
+.c_omm {
+  color: #73af54;
+}
+
+.m_inus {
+  color: #E36767;
+}
+.m_inus:hover {
+  color: #e33834;
+}
+
+.taskiconright {
+  margin-left: 30px;
+  color: #e38329;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.taskiconright:hover {
+  color: #e36500;
+}
+
+.taskiconleft {
+  margin-left: 10px;
+  color: #6f7075;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.taskiconleft:hover {
+  color: #38393b;
+}
+/* NEW TASK BLOCK END   ##################################################################################*/
+
+
+/* USERACCOUNT BLOCK START ##################################################################################*/
+.useraccount-block-header {
+  color: #7c7d83;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+.useraccount-block-hr {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-color: #7c7d83;
+  border-style: dashed;
+}
+
+.useraccount-block > table > .tablehead > tr > th {
+  font-size: 13px;
+  font-weight: normal;
+  /*font-family: "Arial", Helvetica, sans-serif;*/
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  background-color: #7c7d83;
+  color: white;
+  border-bottom: none;
+  line-height: 1.5;
+}
+
+.useraccount-block > table > .tablebody > tr > td {
+  font-size: 13px;
+  /*font-family: "Arial", Helvetica, sans-serif;*/
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  height: 20px;
+  line-height: 2;
+}
+/* NEW TASK BLOCK END   ##################################################################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

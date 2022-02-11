@@ -1,0 +1,79 @@
+<template name="cutting">
+    <h5 class="property-h">PLATTENFRÄSUNGEN</h5>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <form>
+                <fieldset {{plateToken}}>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-group">
+                            <label for="cutingdistance">Abstand (Ab)</label>
+                            <input type="text" class="form-control" for="cx" id="cutdis" placeholder="in mm" value="{{currentcut.distance}}" {{cuttingToken}}>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-default cuttingtable">
+                            <table class="table table-hov">
+                                <thead>
+                                  <tr>
+                                    <th class="col-xs-2 text-center setFont">Nr.</th>
+                                    <th class="col-xs-2 text-center setFont">&#945;</th>
+                                    <th class="col-xs-4 text-center setFont">Ab(mm)</th>
+                                    <th class="col-xs-2 text-center"><i class="fa fa-arrows-h"></i>/<i class="fa fa-arrows-v"></i></th>
+                                    <th class="col-xs-2 text-center">A/I</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  {{#each cuts }}
+                                        {{> cut }}
+                                    {{/ each }}
+                                </tbody>
+                              </table>
+                          </div>
+                    </div>
+                </div>
+                <div class="row glpd15">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="dropup pull-left">
+                            <button class="btn btn-default btn-circle-green hvr-fade dropdown-toggle glmr5" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </button>
+                            <ul class="dropdown-menu cutting-dropdown-menu" aria-labelledby="dropdownMenu1">
+                            {{#with cuttingContHlp}}
+                                <h5 class="dropdown-h5">Außenecke (A)</h5>
+                                <img src="/images/AE_v.svg" alt="" class="dropdown-image" width=60%>
+                                {{#each AE.hor}}
+                                    <li><a href="#" class="cuttingIndex" value="hor">{{angle}} Fräsung (horizontal <span class="fa fa-arrows-h"></span>)</a></li>
+                                {{/each}}
+                                {{#each AE.ver}}
+                                    <li><a href="#" class="cuttingIndex" value="ver">{{angle}} Fräsung (vertikal <span class="fa fa-arrows-v"></span>)</a></li>
+                                {{/each}}
+                                <hr class="dropdown-hr">
+
+                                <h5 class="dropdown-h5">Innenecke (I)</h5>
+                                <img src="/images/IE_v.svg" alt="" class="dropdown-image" width=60%>
+                                {{#each IE.hor}}
+                                    <li><a href="#" class="cuttingIndex" value="hor">{{angle}} Fräsung (horizontal <span class="fa fa-arrows-h"></span>)</a></li>
+                                {{/each}}
+                                {{#each IE.ver}}
+                                    <li><a href="#" class="cuttingIndex" value="ver">{{angle}} Fräsung (vertikal <span class="fa fa-arrows-v"></span>)</a></li>
+                                {{/each}}
+                            {{/with}}
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-default btn-circle-grey hvr-fade pull-left" id="delCut" {{cuttingToken}}>
+                            <i class="fa fa-minus" aria-hidden="true"></i>
+                        </button>
+                        <button type="submit" class="btn btn-default glflr btn-circle-green hvr-fade" {{cuttingToken}}>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</template>
+
